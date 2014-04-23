@@ -1,1 +1,1 @@
-sbcl --load replinit.lisp
+sbcl --load /usr/bin/replinit.lisp

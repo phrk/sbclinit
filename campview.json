@@ -1,0 +1,21 @@
+{
+	"type" : "page-view",
+	"bs-css-url" : "/file/css/bootstrap.min.css",
+	"bs-js-url" : "/file/js/bootstrap.min.js",
+	"title" : "Кампании",
+	
+	"content":
+		{
+			"type" : "form-view",
+			"on-filled" : "on-add-camp",
+			"caption" : "Добавить кампанию",
+			"fields" : [
+				{ 
+					"id" : "name",
+					"type" : "text",
+					"caption" : "Название",
+					"placeholder" : "Введите название кампании"
+				}
+			]
+		}
+}
